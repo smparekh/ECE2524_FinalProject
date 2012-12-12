@@ -2,7 +2,8 @@
 <h3 id="shaishav-parekh-ece-2524-final-project">Shaishav Parekh ECE 2524 Final Project</h3>
 <p>Command line finance tracker. <br \> You can create finance files to track expenses, income and goals. <br \> Needs qt4 to run.</p>
 <p><em>For a sample finance file see sampleFile.txt</em></p>
-<p><strong>Please run qmake and make (in that order) for correct compiling and making</strong></p>
+<p><strong>Please run qmake and make (in that order) for correct compiling and making.</strong></p>
+<p><strong>Note: If you dont have QT, a precompiled binary is included in the directory.</strong> <br /> The binary might not work on 32-bit machines. In that case you will need to run qmake and make.</p>
 <p>% indicates the prompt</p>
 <h1 id="commands">Commands</h1>
 <strong>help</strong> <br \> Prints help to standard output.
@@ -10,12 +11,12 @@
     % help
 </code></pre>
 
-<strong>load</strong> <br \> load &lt;filename&gt; <br \> Loads a file into the current session. <br \>
+<strong>load</strong> <br \> load &lt;filename&gt; <br \> Loads a file into the current session. Dont include .txt <br \>
 <pre><code>
     % load myFinance
 </code></pre>
 
-<strong>create</strong> <br \> create &lt;filename&gt; <br \> Creates a file with the specified file name and loads it into the current session.
+<strong>create</strong> <br \> create &lt;filename&gt; <br \> Creates a file with the specified file name and loads it into the current session. Dont include .txt
 <pre><code>
     % create newFinanceFile
 </code></pre>

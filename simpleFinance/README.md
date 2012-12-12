@@ -8,7 +8,10 @@ Needs qt4 to run.
 
 *For a sample finance file see sampleFile.txt*
 
-**Please run qmake and make (in that order) for correct compiling and making**
+**Please run qmake and make (in that order) for correct compiling and making.**
+
+**Note: If you dont have QT, a precompiled binary is included in the directory.** <br />
+The binary might not work on 32-bit machines. In that case you will need to run qmake and make.
 
 % indicates the prompt
 
@@ -22,14 +25,14 @@ Prints help to standard output.
 
 **load**  <br \>
 load \<filename>  <br \>
-Loads a file into the current session.  <br \>
+Loads a file into the current session. Dont include .txt <br \>
 <pre><code>
 	% load myFinance
 </code></pre>
 
 **create**  <br \>
 create \<filename>  <br \>
-Creates a file with the specified file name and loads it into the current session.
+Creates a file with the specified file name and loads it into the current session. Dont include .txt
 <pre><code>
 	% create newFinanceFile
 </code></pre>
