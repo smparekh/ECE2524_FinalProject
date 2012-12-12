@@ -2,8 +2,9 @@ Simple Finance
 ==============
 ###Shaishav Parekh ECE 2524 Final Project
 
-Command line finance tracker. Creates or loads finance files.
-needs qt4 to run.
+Command line finance tracker. <br \>
+You can create finance files to track expenses, income and goals. <br \>
+Needs qt4 to run.
 
 **Please run qmake and make (in that order) for correct compiling and making**
 
