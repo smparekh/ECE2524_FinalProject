@@ -6,6 +6,8 @@ Command line finance tracker. <br \>
 You can create finance files to track expenses, income and goals. <br \>
 Needs qt4 to run.
 
+*For a sample finance file see sampleFile.txt*
+
 **Please run qmake and make (in that order) for correct compiling and making**
 
 % indicates the prompt
