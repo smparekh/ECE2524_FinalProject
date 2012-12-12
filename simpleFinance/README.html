@@ -1,0 +1,86 @@
+<h1 id="simple-finance">Simple Finance</h1>
+<h3 id="shaishav-parekh-ece-2524-final-project">Shaishav Parekh ECE 2524 Final Project</h3>
+<p>% indicates the prompt</p>
+<h1 id="commands">Commands</h1>
+<strong>help</strong> <br \> Prints help to standard output.
+<pre><code>
+    % help
+</code></pre>
+
+<strong>load</strong> <br \> load &lt;filename&gt; <br \> Loads a file into the current session. <br \>
+<pre><code>
+    % load myFinance
+</code></pre>
+
+<strong>create</strong> <br \> create &lt;filename&gt; <br \> Creates a file with the specified file name and loads it into the current session.
+<pre><code>
+    % create newFinanceFile
+</code></pre>
+
+<p><strong>show</strong> <br \> show &lt;option&gt; <br \> Prints information about the option. <br \> Options: <br \></p>
+<ul>
+<li>Owner: Prints the owner.
+<pre><code>
+    % show owner
+</code></pre></li>
+<li>Amount: Prints the bank balance.
+<pre><code>
+    % show amount
+</code></pre></li>
+<li>Expenses: Prints the expenses list.
+<pre><code>
+    % show expenses
+</code></pre></li>
+<li>Income: Prints the income list.
+<pre><code>
+    % show income
+</code></pre></li>
+<li>Goals: Prints the goal list.
+<pre><code>
+    % show goals
+</code></pre>
+</li>
+</ul>
+<strong>add</strong> <br \> add &lt;expense/income&gt; &lt;description&gt; &lt;amount&gt; &lt;date&gt; <br \> Adds an expense or an income to the list. <br \> &lt;description&gt; One-word description of the expense or income <br \> &lt;amount&gt; amount of expense or income <br \> &lt;date&gt; date of expense or income <br \>
+<pre><code>
+    % add expense Groceries 53.44 12/9/2012
+    % add income Job 120 12/9/2012
+</code></pre>
+
+add goal &lt;description&gt; &lt;amountCurrentlySaved&gt; &lt;goalAmount&gt; &lt;endDate&gt; <br \> Adds a goal to the goal list. <br \> &lt;description&gt; One-word description of the goal <br \> &lt;amountCurrentlySaved&gt; Money currently saved for the goal <br \> &lt;goalAmount&gt; Money needed to complete goal <br \> &lt;endDate&gt; End date for the goal <br \>
+<pre><code>
+    % add goal Travel 0 2000 1/1/2013
+</code></pre>
+
+<strong>remove</strong> <br \> remove &lt;expense/income/goal&gt; &lt;description&gt; <br \> Removes an expense, income or goal from the list <br \> &lt;description&gt; One-word description of expense, income or goal <br \>
+<pre><code>
+    % remove expense Groceries
+    % remove income Job
+    % remove goal Travel
+</code></pre>
+
+<strong>modify</strong> <br \> modify amount &lt;goal description&gt; &lt;newAmount&gt; <br \> Modifies the amount currently saved of the goal based on the goal description. <br \> &lt;goal description&gt; One-word description of goal <br \> &lt;newAmount&gt; new currently saved amount <br \>
+<pre><code>
+    % modify amount Travel 500
+</code></pre>
+
+modify date &lt;goal description&gt; &lt;newDate&gt; <br \> &lt;goal description&gt; One-word description of goal <br \> &lt;newDate&gt; new end date of goal <br \>
+<pre><code>
+    % modify date Travel 1/15/13
+</code></pre>
+
+<strong>set</strong> <br \> set owner &lt;first&gt; &lt;last&gt; <br \> Sets the owner of the file to the &lt;first&gt; and &lt;last&gt; name. <br \>
+<pre><code>
+    % set owner Shaishav Parekh 
+</code></pre>
+
+set amount &lt;newAmount&gt; <br \> Sets the bank balance to the &lt;newAmount&gt; <br \>
+<pre><code>
+    % set amount 500.75
+</code></pre>
+
+<strong>exit</strong> <br \> Saves the changes made during the finance session to a file and exits the program. <br \>
+<pre><code>
+    % exit
+</code></pre>
+

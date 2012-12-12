@@ -1,0 +1,8 @@
+Owner: Shaishav Parekh
+Last Modified: Tue Dec 11 2012
+Amount In Bank: 96909.49
+Expense: Car, 5000.00, 12/6/2012
+Expense: Gas, 34.56, 12/7/2012
+Expense: Groceries, 56.45, 12/7/2012
+Income: Job, 2000.00, 12/6/2012
+Goal: Travel, 2000.00, 500.00, 1/2/2013
